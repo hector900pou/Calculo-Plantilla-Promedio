@@ -13,8 +13,7 @@ st.set_page_config(
 # Estilo visual minimalista mediante títulos y contenedores
 st.title("🚛 Cuadro de Mando de Plantilla Promedio")
 st.markdown("Consolida los reportes de conductores por bases, calcula la plantilla y genera informes listos para descargar.")
-st.hr()
-
+st.divider()
 # --- BARRA LATERAL (Configuración del Período) ---
 st.sidebar.header("🗓️ Configuración del Período")
 
